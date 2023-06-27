@@ -1,0 +1,41 @@
+.Skill-Card {
+    text-align: center;
+    border-style: solid;
+    font-weight: bold;
+    height: max-content;
+    padding: 20px
+}
+
+header {
+    display: flex;
+    height: 100px;
+    background-color: white;
+}
+
+.Skill-Image {
+    height: auto;
+    max-width: 30%;
+}
+
+.Skill-Name {
+    width: 220px;
+    height: 100px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+.Skill-Description {
+    width: 275px;
+    height: 100px;
+    text-align: left;
+    margin: 30px 0px 0px 40px;
+    padding: 20px 20px 10px 20px;
+    border-style: solid;
+}
+
+.Skill-List {
+    margin: 10px 0px 20px 0px;
+}

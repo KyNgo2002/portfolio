@@ -1,0 +1,22 @@
+.Skills-Body {
+    background-color: rgb(238,238,238);
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Skillset-Text {
+    font-size: 80px;
+    font-weight: bold;
+    padding: 120px 0px 50px 0px;
+}
+.Skills-Box {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    display: flex;
+    height: max-content;
+    width: max-content;
+}

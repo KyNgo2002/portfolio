@@ -1,0 +1,82 @@
+.Project {
+    margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.Project-Text {
+    background-color: #28282B;
+    color: white;
+    margin: 0px;
+    height: 120px;
+    text-align: center;
+    line-height: 110px;
+    font-size: 35px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.Project-Img {
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    transition: 0.2s;
+}
+
+.PM, .Path, .WYR, .Audio {
+    width: 800px;
+    height: 544px;
+}
+
+.LoL{
+    width: 580px;
+    height: 544px;
+}
+
+.Img-Container {
+    height: 480px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.PM:hover .Project-Img{
+    transform: scale(1.1);
+}
+.PM:hover .Project-Text{
+    background-color: white;
+    color: #28282B;;
+}
+
+.LoL:hover .Project-Img{
+    transform: scale(1.1);
+}
+.LoL:hover .Project-Text{
+    background-color: white;
+    color: #28282B;;
+}
+
+.Path:hover .Project-Img{
+    transform: scale(1.1);
+}
+.Path:hover .Project-Text{
+    background-color: white;
+    color: #28282B;;
+}
+
+.Audio:hover .Project-Img{
+    transform: scale(1.1);
+}
+.Audio:hover .Project-Text{
+    background-color: white;
+    color: #28282B;;
+}
+
+.WYR:hover .Project-Img{
+    transform: scale(1.1);
+}
+.WYR:hover .Project-Text{
+    background-color: white;
+    color: #28282B;;
+}

@@ -1,0 +1,58 @@
+.Experience-Dropdown-Show{
+    background-color: white;
+    width: 975px;
+    height: 220px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(.4,0,.2,1);
+    
+}
+
+.Experience-Dropdown-Hide {
+    overflow: hidden;
+    height: 0px;
+    width: 975px;
+    transition: all 0.4s cubic-bezier(.4,0,.2,1);
+    padding: 0px;
+}
+
+.Experience-Header {
+    border-radius: 8px 8px 0px 0px;
+    height: 63px;
+    width: 975px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+}
+
+.Job-Description {
+    font-size: 20px;
+    width: 945px;
+    padding: 15px;
+}
+
+.Skills-List {
+    display: flex;
+    flex-direction: row;
+    width: 965px;
+    padding-left: 14px;
+}
+
+.Skills {
+    border-style: solid;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 0px 5px;
+    border-width: 2px;
+    width: max-content;
+}
+
+.Subsection {
+    font-size: 30px;
+    margin: 0px 10px;
+    height: 63px;
+    line-height: 63px;
+    width: max-content;
+}
