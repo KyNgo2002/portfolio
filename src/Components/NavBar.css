@@ -1,0 +1,37 @@
+.header {
+    position: relative;
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    font-size: 38px;
+}
+.name {
+    margin-left: 75px;   
+    letter-spacing: 0.8rem;
+    color: black;
+}
+
+.Header-Buttons {
+    border: none;
+    background-color: white;
+    font-size: 38px;
+    font-weight: 300;
+    margin-right: 4vw;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+.icon {
+    /* scale: 0.1; */
+    /* background-color: red; */
+    margin: 0px 15px 0px 10px;
+    padding: 0px;
+    width: 50px;
+}
+
+.Header-Buttons:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}

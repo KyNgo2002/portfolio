@@ -2,22 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import SkillsBody from './Components/SkillsBody.jsx'
-import ProjectsBody from './Components/ProjectsBody.jsx';
-import ExperienceBody from './Components/ExperienceBody.jsx';
-import ContactBody from './Components/ContactBody.jsx';
-import MeBody from './Components/MeBody.jsx'
-//import reportWebVitals from './reportWebVitals';
+import ProjectList from './Components/ProjectList.jsx'
+
+// import SkillsBody from './Components/SkillsBody.jsx'
+// import ProjectsBody from './Components/ProjectsBody.jsx';
+// import ExperienceBody from './Components/ExperienceBody.jsx';
+// import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
+  
   <React.StrictMode>
-    <App /> 
-    <MeBody></MeBody>
-    <SkillsBody></SkillsBody> 
-    <ProjectsBody></ProjectsBody>
-    <ExperienceBody></ExperienceBody>
-    <ContactBody></ContactBody>
+    <App/>
+    <ProjectList></ProjectList>
+
+
   </React.StrictMode>
 );
 
